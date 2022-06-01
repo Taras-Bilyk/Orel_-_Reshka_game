@@ -27,7 +27,7 @@
             var_dump($_POST)
         ?>
     </div>
-    <form action="level.php" method="POST">
+    <form action="index.php" method="POST">
         <input type="hidden" name="wins" value="<?php echo($victoris); ?>">
         <input type="hidden" name="level" value="<?php echo($level); ?>">
         <input type="hidden" name="disabled" value="<?php echo($disabled); ?>">
