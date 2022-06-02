@@ -24,7 +24,7 @@
             echo("<p>Loses: $loses</p>");
             echo("<p>Games: $games</p>");
             echo("<p>$level</p>");
-            var_dump($_POST)
+            // var_dump($_POST)
         ?>
     </div>
     <form action="index.php" method="POST">

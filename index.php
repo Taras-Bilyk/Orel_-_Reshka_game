@@ -14,7 +14,7 @@
         }else{
             $disabled = 0;
         }
-        echo(var_dump($_POST));
+        // echo(var_dump($_POST));
     ?>
     <form action="game.php" method="POST">
         <p>

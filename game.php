@@ -31,14 +31,7 @@
                 <input type="hidden" name="level" value="<?php echo($level); ?>">
                 
             </p>
-        
-            <p>
-                <?php 
-                    var_dump($_POST);
-                ?>
-            </p>
 
-            
             <p>
                 <?php error_reporting(2);
                     if (isset($_POST["game"])){
